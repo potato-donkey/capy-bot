@@ -11,7 +11,7 @@ The bot is available on [Telegram](https://t.me/bigrodentbot).
 
 ## Contribution
 
-Feel free to add your own capybara images!
+Feel free to add your own capybara images or bot features!
 Only one request: when making a pull request, prefix the title with one of these:
 
 - **'IMG:'** for image additions
