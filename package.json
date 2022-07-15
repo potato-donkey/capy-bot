@@ -1,14 +1,13 @@
 {
-  "name": "trying-out-typescript",
+  "name": "capybot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "author": "",
+  "author": "potato-donkey",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
