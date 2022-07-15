@@ -1,0 +1,20 @@
+{
+  "name": "trying-out-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.58.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4"
+  }
+}
