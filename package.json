@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && npm run start"
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
