@@ -4,6 +4,9 @@ const token = process.env.TOKEN;
 const client = new tb(token, { polling: true });
 
 const commands = require('./commands');
+const imagelist = require('./imagedata');
+
+console.log(`Loaded ${imagelist.length} images`);
 
 client.on('message', async (msg) => {
     console.log(`Received message: ${msg.text} from @${msg.from.username}`);
