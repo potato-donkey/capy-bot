@@ -12,4 +12,8 @@ const help = (msg: typeof Message, client: typeof User) => {
     client.sendMessage(msg.chat.id, 'Commands:\n/capy\n/capybara');
 }
 
-module.exports = { capy, help }
+const start = (msg: typeof Message, client: typeof User) => {
+    client.sendMessage(msg.chat.id, 'Hi there! Use the /capy command to receive a capybara!');
+}
+
+module.exports = { capy, help, start }

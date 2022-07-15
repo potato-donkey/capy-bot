@@ -15,6 +15,9 @@ client.on('message', async (msg) => {
         case '/help':
             commands.help(msg, client);
             break;
+        case '/start':
+            commands.start(msg, client);
+            break;
         default: return;
     }
 });
