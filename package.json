@@ -1,14 +1,14 @@
 {
   "name": "capybot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Telegram bot that sends Capybaras",
   "main": "index.js",
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc"
   },
   "author": "potato-donkey",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "dependencies": {
     "dotenv": "^16.0.1",
     "node-telegram-bot-api": "^0.58.0"
