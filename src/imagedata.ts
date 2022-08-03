@@ -1,3 +1,13 @@
+/*
+    This returns an array containing all the image data.
+    Image object should look like
+    {
+        "url": "",
+        "attribution": "",
+    }
+    Keys should be self-explanatory.
+*/
+
 module.exports = [
     {
         "url": "https://www.rainforest-alliance.org/wp-content/uploads/2021/06/capybara-square-1.jpg.optimal.jpg",
